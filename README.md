@@ -244,7 +244,7 @@ true
 ```
 ---------------------------------------
 
-Criar Revendedor usando conta Revendedora:
+Recupera os usuarios onlines:
 
 ```sh
 curl --location 'https://venda.dragoncoressh.com/core/apiatlas.php' \
