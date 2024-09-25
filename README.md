@@ -247,7 +247,7 @@ true
 Recupera os usuarios onlines:
 
 ```sh
-curl --location 'https://venda.dragoncoressh.com/core/apiatlas.php' \
+curl --location 'https://seudominio.com/core/apiatlas.php' \
 --header 'Content-Type: application/x-www-form-urlencoded' \
 --header 'Cookie: PHPSESSID=r02n0da5t6et5fku8kmpifh5o9' \
 --data-urlencode 'passapi=SUACHAVE' \
