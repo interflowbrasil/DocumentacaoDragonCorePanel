@@ -242,3 +242,21 @@ Retorno de exemplo:
 ```sh
 true
 ```
+---------------------------------------
+
+Criar Revendedor usando conta Revendedora:
+
+```sh
+curl --location 'https://venda.dragoncoressh.com/core/apiatlas.php' \
+--header 'Content-Type: application/x-www-form-urlencoded' \
+--header 'Cookie: PHPSESSID=r02n0da5t6et5fku8kmpifh5o9' \
+--data-urlencode 'passapi=SUACHAVE' \
+--data-urlencode 'module=onlines'
+```
+
+Retorno de exemplo: 
+
+```sh
+[{"login":"login","quantidade":"1"}]
+```
+
