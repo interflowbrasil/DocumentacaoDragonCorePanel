@@ -260,3 +260,21 @@ Retorno de exemplo:
 [{"login":"login","quantidade":"1"}]
 ```
 
+---------------------------------------
+
+Recupera os usuarios onlines como admin:
+
+```sh
+curl --location 'https://seudominio.com/core/apiatlas.php' \
+--header 'Content-Type: application/x-www-form-urlencoded' \
+--header 'Cookie: PHPSESSID=r02n0da5t6et5fku8kmpifh5o9' \
+--data-urlencode 'passapi=SUACHAVE' \
+--data-urlencode 'module=onlinesadm'
+```
+
+Retorno de exemplo: 
+
+```sh
+[{"login":"login","quantidade":"1"}]
+```
+
