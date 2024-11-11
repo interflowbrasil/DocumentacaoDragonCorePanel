@@ -1,7 +1,7 @@
 Recuperar os usuarios criados no painel pelo usuario do API Key:
 
 ```sh
-curl --location 'https://painel-revenda.site/atlas/whatsconect.php' \
+curl --location 'https://wpapi.dr1.info' \
 --header 'Content-Type: application/x-www-form-urlencoded' \
 --header 'Cookie: PHPSESSID=r02n0da5t6et5fku8kmpifh5o9' \
 --data-urlencode 'passapi=OvjDgcnL6u2kd5pgZfG0RIQmTg' \
@@ -19,7 +19,7 @@ Retorno de exemplo:
 Recuperar os revendedores criados no painel pelo usuario do API Key:
 
 ```sh
-curl --location 'https://painel-revenda.site/atlas/whatsconect.php' \
+curl --location 'https://wpapi.dr1.info' \
 --header 'Content-Type: application/x-www-form-urlencoded' \
 --header 'Cookie: PHPSESSID=r02n0da5t6et5fku8kmpifh5o9' \
 --data-urlencode 'passapi=OvjDgcnL6u2kd5pgZfG0RIQmTg' \
@@ -37,7 +37,7 @@ Retorno de exemplo:
 Criar teste como administrador:
 
 ```sh
-curl --location 'https://painel-revenda.site/atlas/whatsconect.php' \
+curl --location 'https://wpapi.dr1.info' \
 --header 'Content-Type: application/x-www-form-urlencoded' \
 --header 'Cookie: PHPSESSID=r02n0da5t6et5fku8kmpifh5o9' \
 --data-urlencode 'passapi=OvjDgcnL6u2kd5pgZfG0RIQmTg' \
@@ -59,7 +59,7 @@ Retorno de exemplo:
 Criar teste como revendedor:
 
 ```sh
-curl --location 'https://painel-revenda.site/atlas/whatsconect.php' \
+curl --location 'https://wpapi.dr1.info' \
 --header 'Content-Type: application/x-www-form-urlencoded' \
 --header 'Cookie: PHPSESSID=r02n0da5t6et5fku8kmpifh5o9' \
 --data-urlencode 'passapi=OvjDgcnL6u2kd5pgZfG0RIQmTg' \
@@ -80,7 +80,7 @@ Retorno de exemplo:
 Criar Usuario como administrador:
 
 ```sh
-curl --location 'https://painel-revenda.site/atlas/whatsconect.php' \
+curl --location 'https://wpapi.dr1.info' \
 --header 'Content-Type: application/x-www-form-urlencoded' \
 --header 'Cookie: PHPSESSID=r02n0da5t6et5fku8kmpifh5o9' \
 --data-urlencode 'passapi=OvjDgcnL6u2kd5pgZfG0RIQmTg' \
@@ -104,7 +104,7 @@ Retorno de exemplo:
 Criar Usuario como revendedor:
 
 ```sh
-curl --location 'https://painel-revenda.site/atlas/whatsconect.php' \
+curl --location 'https://wpapi.dr1.info' \
 --header 'Content-Type: application/x-www-form-urlencoded' \
 --header 'Cookie: PHPSESSID=r02n0da5t6et5fku8kmpifh5o9' \
 --data-urlencode 'passapi=OvjDgcnL6u2kd5pgZfG0RIQmTg' \
@@ -127,7 +127,7 @@ Retorno de exemplo:
 Renovar usuario:
 
 ```sh
-curl --location 'https://painel-revenda.site/atlas/whatsconect.php' \
+curl --location 'https://wpapi.dr1.info' \
 --header 'Content-Type: application/x-www-form-urlencoded' \
 --header 'Cookie: PHPSESSID=r02n0da5t6et5fku8kmpifh5o9' \
 --data-urlencode 'passapi=OvjDgcnL6u2kd5pgZfG0RIQmTg' \
@@ -146,7 +146,7 @@ Retorno de exemplo:
 Renovar Revendedor:
 
 ```sh
-curl --location 'https://painel-revenda.site/atlas/whatsconect.php' \
+curl --location 'https://wpapi.dr1.info' \
 --header 'Content-Type: application/x-www-form-urlencoded' \
 --header 'Cookie: PHPSESSID=r02n0da5t6et5fku8kmpifh5o9' \
 --data-urlencode 'passapi=OvjDgcnL6u2kd5pgZfG0RIQmTg' \
@@ -165,7 +165,7 @@ Retorno de exemplo:
 Limpar Device ID:
 
 ```sh
-curl --location 'https://painel-revenda.site/atlas/whatsconect.php' \
+curl --location 'https://wpapi.dr1.info' \
 --header 'Content-Type: application/x-www-form-urlencoded' \
 --header 'Cookie: PHPSESSID=r02n0da5t6et5fku8kmpifh5o9' \
 --data-urlencode 'passapi=OvjDgcnL6u2kd5pgZfG0RIQmTg' \
@@ -184,7 +184,7 @@ Retorno de exemplo:
 Criar Revendedor usando conta administradora:
 
 ```sh
-curl --location 'https://painel-revenda.site/atlas/whatsconect.php' \
+curl --location 'https://wpapi.dr1.info' \
 --header 'Content-Type: application/x-www-form-urlencoded' \
 --header 'Cookie: PHPSESSID=r02n0da5t6et5fku8kmpifh5o9' \
 --data-urlencode 'passapi=OvjDgcnL6u2kd5pgZfG0RIQmTg' \
@@ -207,7 +207,7 @@ Retorno de exemplo:
 Criar Revendedor usando conta Revendedora:
 
 ```sh
-curl --location 'https://painel-revenda.site/atlas/whatsconect.php' \
+curl --location 'https://wpapi.dr1.info' \
 --header 'Content-Type: application/x-www-form-urlencoded' \
 --header 'Cookie: PHPSESSID=r02n0da5t6et5fku8kmpifh5o9' \
 --data-urlencode 'passapi=OvjDgcnL6u2kd5pgZfG0RIQmTg' \
@@ -229,7 +229,7 @@ Retorno de exemplo:
 Seta o usuario como notificado no banco de dados:
 
 ```sh
-curl --location 'https://painel-revenda.site/atlas/whatsconect.php' \
+curl --location 'https://wpapi.dr1.info' \
 --header 'Content-Type: application/x-www-form-urlencoded' \
 --header 'Cookie: PHPSESSID=r02n0da5t6et5fku8kmpifh5o9' \
 --data-urlencode 'passapi=OvjDgcnL6u2kd5pgZfG0RIQmTg' \
@@ -247,7 +247,7 @@ true
 Recupera os usuarios onlines:
 
 ```sh
-curl --location 'https://painel-revenda.site/atlas/whatsconect.php' \
+curl --location 'https://wpapi.dr1.info' \
 --header 'Content-Type: application/x-www-form-urlencoded' \
 --header 'Cookie: PHPSESSID=r02n0da5t6et5fku8kmpifh5o9' \
 --data-urlencode 'passapi=OvjDgcnL6u2kd5pgZfG0RIQmTg' \
@@ -265,7 +265,7 @@ Retorno de exemplo:
 Recupera os usuarios onlines como admin:
 
 ```sh
-curl --location 'https://painel-revenda.site/atlas/whatsconect.php' \
+curl --location 'https://wpapi.dr1.info' \
 --header 'Content-Type: application/x-www-form-urlencoded' \
 --header 'Cookie: PHPSESSID=r02n0da5t6et5fku8kmpifh5o9' \
 --data-urlencode 'passapi=OvjDgcnL6u2kd5pgZfG0RIQmTg' \
